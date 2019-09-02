@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wealth Accumulator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="form">
+        <label for="monthly-saving">
+            Monthly Saving
+            <input type="number" id="monthly-saving" value="1000"/>
+        </label>
+        <label for="interest">
+            Rate of interest
+            <input type="number" id="interest" value="6"/>
+        </label>
+        <label for="time">
+            Number of years (integer)
+            <input type="number" id="time" value="1"/>
+        </label>
+        <label for="annual-increment">
+            Annual Increment in monthly saving 
+            <input type="number" id="annual-increment" value="0"/>
+        </label>
+        <button onclick="calculate()">Calculate</button>
+
+        <p>Final Amount: <span id="final-amount"></span></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.form{
+    font-size: 1.25em;
+    width: 40%;
+    min-width: 720px;
+    margin: auto;
+    padding: 1rem;
+}
+.form label{
+    display: block;
+    margin: 1.5rem 0;
+}
+.form label input {
+    float: right;
+    margin-right: 30%;
+}
+.form button {
+    margin-left: calc(50% - 1em - 16%);
+    padding: 0.5em;
+    font-weight: 600;
+    background: azure;
+    border-radius: 8px;
+    width: 16%;
+    outline: none;
+    border-width: 0;
+}
